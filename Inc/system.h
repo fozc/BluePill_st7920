@@ -12,5 +12,7 @@
 
 void 	 delay_ms		(uint32_t ms);
 uint32_t get_systick	(void);
+void 	__delay_us		(uint32_t micros);
+
 
 #endif /* SYSTEM_H_ */
